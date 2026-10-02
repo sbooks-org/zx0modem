@@ -1,0 +1,13 @@
+[package]
+name = "serial-zmodem"
+version = "0.1.0"
+edition = "2024"
+default-run = "serial-zmodem"
+
+[dependencies]
+crossterm = "0.29"
+libc = "0.2"
+serialport = "4.7"
+zx0 = "1"
+
+[dev-dependencies]
